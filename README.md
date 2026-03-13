@@ -1,7 +1,7 @@
-Companies House API – Handling Leading Zeros in Company Numbers
+# Companies House API – Handling Leading Zeros in Company Numbers
 
 
-## The Problem##
+## The Problem
 
 While extracting company data from the Companies House API, I noticed that many API responses were returning blank results, even though the companies clearly had data when searched manually on the Companies House website.
 This was confusing because the same company numbers worked perfectly when searched manually.
