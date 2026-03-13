@@ -3,8 +3,9 @@
 
 ## The Problem
 
-While extracting company data from the Companies House API, I noticed that many API responses were returning blank results, even though the companies clearly had data when searched manually on the Companies House website.
-This was confusing because the same company numbers worked perfectly when searched manually.
+While extracting data from the Companies House API, I noticed a discrepancy: my output files contained blank cells for records that existed on the website. Upon checking the logs, I found that the API was returning 404 Errors (Not Found) and 502 Bad Gateway errors for specific company numbers.
+
+This was confusing because these same companies worked perfectly when searched manually on the website.
 
 
 ## The Discovery
